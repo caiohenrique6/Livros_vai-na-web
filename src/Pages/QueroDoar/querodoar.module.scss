@@ -1,0 +1,99 @@
+.querodoar{
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .Texte{
+        display: flex;
+        align-items: center;
+        height: 10vh;
+        font-size: 24px;
+        margin: 0;
+    }
+
+}
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: #005695 solid;
+    height: 85%;
+    width: 28%;
+    border-radius: 15px;
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+    h2{
+        width: 70%;
+        justify-content: center;
+        color: #005695;
+        display: flex;
+    }
+}
+.inputss{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.barra{
+    border: #005695 solid;
+    color: black;
+    width: 80%;
+    height: 17%;
+    border-radius: 15px;
+    padding-left: 1vw;
+    outline: none;
+    &::placeholder{
+        color: black;
+        text-align: start;
+    }
+}
+
+.butao{
+    width: 47%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+
+    .butal{
+        width: 100%;
+        height: 6vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #005695;
+        border-radius: 10px;
+        background-color: #005695;
+        border: none;
+        color: white;
+    }
+}
+
+@media(max-width:780px){
+
+    .querodoar{
+        .Texte{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            justify-content: center;
+            flex-direction: column;
+            width: 76%;
+        }
+    }
+    .caixa{
+        width: 45vh;
+    }
+}

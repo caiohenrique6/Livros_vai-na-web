@@ -1,0 +1,48 @@
+.Sectioncima{
+    background-color: #005695;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 15vh;
+    padding: 3%;
+    img {
+        width: 5vh;
+        margin-left: 2vh;
+
+    }
+}
+
+.sectionbaixo{
+    background-color:#232020;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+@media(max-width:780px){
+    .Sectioncima{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        nav{
+            align-items: end;
+            justify-content: center;
+            img{
+                display: flex;
+                width: 28px;
+            }
+        }
+    }
+    .sectionbaixo{
+        display: flex;
+        justify-content: center;
+        p{
+            justify-content: center;
+            text-align: center;
+        }
+    }
+}

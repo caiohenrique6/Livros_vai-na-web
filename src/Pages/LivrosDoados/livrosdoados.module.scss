@@ -1,0 +1,54 @@
+.livrosdoados{
+    height: 85vh;
+    width: 100%;
+}
+
+.titulo2{
+    text-align: center;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.livros{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .container{
+        border: #005695 solid;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 13vw;
+        img{
+            width: 40%;
+        }
+    }
+    .textos{
+        height: 15vh;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width:780px){
+    .livros{
+        height: 40vh;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+
+        .container{
+            width: 45vw;
+        }
+    }
+}

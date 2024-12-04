@@ -1,0 +1,121 @@
+.HeaderBox{
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  
+    background-image: linear-gradient(to right, #001b2f, #005695);
+    color: #ffffff;
+
+    ul {
+        display: flex;
+        font-size: 3vh;
+        width: 35vw;
+        list-style: none;
+        justify-content: space-between;
+        align-items: end;
+        color: #ffffff;
+        list-style: none;
+        .link{
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+    }
+    .barradeprocura{
+        width: 18vw;
+        justify-content: center;
+        border-radius:25px;
+        border: solid #ffffff;
+        display: flex;
+        align-items: center;
+        input {
+            outline: 0;
+            border: none;
+            width: 15vw;
+            height: 8vh;
+            background-color: transparent;
+            color: #ffffff;
+            border-radius: 20px;
+            &::placeholder {
+              color: white;
+              font-size: 20px;
+            text-align: center;
+        }
+            }
+            button{
+                background: none;
+                border: none;
+                cursor: pointer;
+            }
+}
+.DivBox {
+    width: 25vw;
+    justify-content: start;
+    justify-content: space-evenly;
+    align-items: end;
+    display: flex;
+    img {
+        width: 4vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+}
+}
+nav{
+    height: 8vh;
+    display: flex;
+    align-items: end;
+}
+
+.quadrado{
+    height: 12vh;
+    display: flex;
+    align-items: end;
+
+}
+
+
+@media (max-width:780px){
+    .HeaderBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        .DivBox{
+            align-items: center;
+            display: flex;
+            width: 70vw;
+            height: 90vh;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            h2{
+                font-size: 23px;
+            }
+            
+        }
+
+        .barradeprocura{
+            display: none;
+        }
+        }
+        nav{
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+    
+            .textos{
+                width: 100%;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+                padding-left: 20px;
+                padding-right: 20px;
+                
+            }
+        }
+    }
