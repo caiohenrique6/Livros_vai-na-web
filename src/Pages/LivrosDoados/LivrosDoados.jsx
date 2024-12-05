@@ -1,5 +1,5 @@
 import livro from "../../assets/livrored.png"
-import S from './livrosDoados.module.scss'
+import S from './livrosdoados.module.scss'
 
 export default function LivrosDoados() {
     return(
