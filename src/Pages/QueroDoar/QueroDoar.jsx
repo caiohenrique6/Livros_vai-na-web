@@ -35,6 +35,7 @@ export default function QueroDoar() {
             image_url
         }
         await axios.post("https://api-t1-e296.onrender.com/doar", dadosPEnviar)
+        alert("Livro Doado")
 
     }
 

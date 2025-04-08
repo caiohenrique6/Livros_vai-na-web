@@ -1,5 +1,6 @@
 .livrosdoados{
-    height: 85vh;
+    min-height: 100vh;
+    height: auto;
     width: 100%;
 }
 
@@ -12,24 +13,14 @@
 
 }
 .livros{
-    width: 25%;
+    width: 100%;
+    min-height: 80vh;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .container{
-        border: #005695 solid;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 30vh;
-        width: 13vw;
-        img{
-            width: 40%;
-        }
-    }
+    flex-wrap: wrap;    
+    justify-content: space-evenly;
+    align-items: start;
+    
     .textos{
         height: 15vh;
         text-align: center;
@@ -39,15 +30,31 @@
         justify-content: center;
     }
 }
-
+.container{
+    border: #005695 solid;
+    border-radius: 15px;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 15%;
+    img{
+        width: 150px;
+        
+    }
+}
 @media(max-width:780px){
     .livros{
-        height: 40vh;
+        min-height: 30vh;
+        height: auto;
         width: 100%;
         align-items: center;
         justify-content: center;
 
         .container{
+            margin: 5px;
             width: 45vw;
         }
     }
